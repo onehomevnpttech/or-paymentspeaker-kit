@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'ORPaymentSpeaker'
+  s.name             = 'ORPaymentSpeakerKit'
   s.version          = '1.0.0-web'
   s.summary          = 'Payment Speaker SDK'
   s.homepage         = 'https://github.com/onehomevnpttech'
