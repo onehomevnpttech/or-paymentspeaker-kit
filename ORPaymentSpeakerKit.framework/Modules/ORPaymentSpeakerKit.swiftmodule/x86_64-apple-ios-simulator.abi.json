@@ -1,0 +1,431 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "ORPaymentSpeakerKit",
+    "printedName": "ORPaymentSpeakerKit",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ORPaymentSpeakerKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "ORPaymentSpeakerKit",
+        "declAttributes": [
+          "Preconcurrency"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Photos",
+        "printedName": "Photos",
+        "declKind": "Import",
+        "moduleName": "ORPaymentSpeakerKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ORPaymentSpeaker",
+        "printedName": "ORPaymentSpeaker",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ORPaymentSpeaker",
+                "printedName": "ORPaymentSpeakerKit.ORPaymentSpeaker",
+                "usr": "s:19ORPaymentSpeakerKit0aB0C"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19ORPaymentSpeakerKit0aB0C6sharedACvpZ",
+            "mangledName": "$s19ORPaymentSpeakerKit0aB0C6sharedACvpZ",
+            "moduleName": "ORPaymentSpeakerKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ORPaymentSpeaker",
+                    "printedName": "ORPaymentSpeakerKit.ORPaymentSpeaker",
+                    "usr": "s:19ORPaymentSpeakerKit0aB0C"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19ORPaymentSpeakerKit0aB0C6sharedACvgZ",
+                "mangledName": "$s19ORPaymentSpeakerKit0aB0C6sharedACvgZ",
+                "moduleName": "ORPaymentSpeakerKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setUserProperties",
+            "printedName": "setUserProperties(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ORUserProperties",
+                "printedName": "ORPaymentSpeakerKit.ORUserProperties",
+                "usr": "s:19ORPaymentSpeakerKit16ORUserPropertiesC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19ORPaymentSpeakerKit0aB0C17setUserPropertiesyyAA06ORUserF0CF",
+            "mangledName": "$s19ORPaymentSpeakerKit0aB0C17setUserPropertiesyyAA06ORUserF0CF",
+            "moduleName": "ORPaymentSpeakerKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "openAddSpeaker",
+            "printedName": "openAddSpeaker(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19ORPaymentSpeakerKit0aB0C07openAddB04fromySo16UIViewControllerC_tF",
+            "mangledName": "$s19ORPaymentSpeakerKit0aB0C07openAddB04fromySo16UIViewControllerC_tF",
+            "moduleName": "ORPaymentSpeakerKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "openManageSpeakers",
+            "printedName": "openManageSpeakers(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19ORPaymentSpeakerKit0aB0C18openManageSpeakers4fromySo16UIViewControllerC_tF",
+            "mangledName": "$s19ORPaymentSpeakerKit0aB0C18openManageSpeakers4fromySo16UIViewControllerC_tF",
+            "moduleName": "ORPaymentSpeakerKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "openTransactions",
+            "printedName": "openTransactions(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19ORPaymentSpeakerKit0aB0C16openTransactions4fromySo16UIViewControllerC_tF",
+            "mangledName": "$s19ORPaymentSpeakerKit0aB0C16openTransactions4fromySo16UIViewControllerC_tF",
+            "moduleName": "ORPaymentSpeakerKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "openPaymentService",
+            "printedName": "openPaymentService(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19ORPaymentSpeakerKit0aB0C18openPaymentService4fromySo16UIViewControllerC_tF",
+            "mangledName": "$s19ORPaymentSpeakerKit0aB0C18openPaymentService4fromySo16UIViewControllerC_tF",
+            "moduleName": "ORPaymentSpeakerKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "openReportInterrupt",
+            "printedName": "openReportInterrupt(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19ORPaymentSpeakerKit0aB0C19openReportInterrupt4fromySo16UIViewControllerC_tF",
+            "mangledName": "$s19ORPaymentSpeakerKit0aB0C19openReportInterrupt4fromySo16UIViewControllerC_tF",
+            "moduleName": "ORPaymentSpeakerKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "openCustomFunction",
+            "printedName": "openCustomFunction(from:route:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19ORPaymentSpeakerKit0aB0C18openCustomFunction4from5routeySo16UIViewControllerC_SStF",
+            "mangledName": "$s19ORPaymentSpeakerKit0aB0C18openCustomFunction4from5routeySo16UIViewControllerC_SStF",
+            "moduleName": "ORPaymentSpeakerKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:19ORPaymentSpeakerKit0aB0C",
+        "mangledName": "$s19ORPaymentSpeakerKit0aB0C",
+        "moduleName": "ORPaymentSpeakerKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ORPaymentSpeakerKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ORUserProperties",
+        "printedName": "ORUserProperties",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(username:walletId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ORUserProperties",
+                "printedName": "ORPaymentSpeakerKit.ORUserProperties",
+                "usr": "s:19ORPaymentSpeakerKit16ORUserPropertiesC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19ORPaymentSpeakerKit16ORUserPropertiesC8username8walletIdACSS_SStcfc",
+            "mangledName": "$s19ORPaymentSpeakerKit16ORUserPropertiesC8username8walletIdACSS_SStcfc",
+            "moduleName": "ORPaymentSpeakerKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:19ORPaymentSpeakerKit16ORUserPropertiesC",
+        "mangledName": "$s19ORPaymentSpeakerKit16ORUserPropertiesC",
+        "moduleName": "ORPaymentSpeakerKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/payment-speaker-flutter\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
+      "kind": "StringLiteral",
+      "offset": 210,
+      "length": 3,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/payment-speaker-flutter\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
+      "kind": "StringLiteral",
+      "offset": 236,
+      "length": 22,
+      "value": "\"\/add_payment_speaker\""
+    },
+    {
+      "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/payment-speaker-flutter\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
+      "kind": "StringLiteral",
+      "offset": 285,
+      "length": 23,
+      "value": "\"\/list_payment_speaker\""
+    },
+    {
+      "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/payment-speaker-flutter\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
+      "kind": "StringLiteral",
+      "offset": 333,
+      "length": 22,
+      "value": "\"\/transaction_history\""
+    },
+    {
+      "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/payment-speaker-flutter\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
+      "kind": "StringLiteral",
+      "offset": 375,
+      "length": 18,
+      "value": "\"\/payment_service\""
+    },
+    {
+      "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/payment-speaker-flutter\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
+      "kind": "StringLiteral",
+      "offset": 421,
+      "length": 19,
+      "value": "\"\/report_interrupt\""
+    },
+    {
+      "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/payment-speaker-flutter\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
+      "kind": "StringLiteral",
+      "offset": 2363,
+      "length": 3,
+      "value": "\"\/\""
+    }
+  ]
+}
