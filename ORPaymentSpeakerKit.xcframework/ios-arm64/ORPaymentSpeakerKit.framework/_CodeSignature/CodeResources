@@ -14,15 +14,15 @@
 		</data>
 		<key>Modules/ORPaymentSpeakerKit.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		WfFYk1sslc8ZpXQzEyYm9kBwoMs=
+		3Lkv0sL74oEN7dVGR00KZRA6OWM=
 		</data>
 		<key>Modules/ORPaymentSpeakerKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		zQ+c1R286JAeNUmzmcy17YG1c64=
+		FL7phOwdb6By2+nQgGQnhMExylY=
 		</data>
 		<key>Modules/ORPaymentSpeakerKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		BICBjOznbbQY7geFzBN24A2LMIQ=
+		GTzaZD5sfbA8CfJjBzznD5hWKOw=
 		</data>
 		<key>Modules/ORPaymentSpeakerKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/ORPaymentSpeakerKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		BICBjOznbbQY7geFzBN24A2LMIQ=
+		GTzaZD5sfbA8CfJjBzznD5hWKOw=
 		</data>
 		<key>Modules/ORPaymentSpeakerKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		rs24WzcXdvZQ3ireBt1yQ7cas1M=
+		e+ozxa5rqM5+cMfqRsL6xz9U+r4=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -50,21 +50,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FCSY6EQGigP7W6yqSiQLA6NPlNh/0M4Esr8zw3lcsFQ=
+			ibKPTV3kk9hKIyprNXaKmGqfQIGEx5uRMFg3j7gMW/A=
 			</data>
 		</dict>
 		<key>Modules/ORPaymentSpeakerKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+6SrAGcd4c9DMImffIzHu1TemHpxH//W3/VVHuKXvMw=
+			Jf1iErcTbKvZOdr2Z3oo9zHi062XWCEfAWnDs5/+Fpw=
 			</data>
 		</dict>
 		<key>Modules/ORPaymentSpeakerKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wtsr753t0/BrJbfLgHe3X+carDFA1GkacKCO7j8oBAA=
+			ksg/fGFtyG/Sz7ccYs9mYuiPsPBrmv+qN5OjH7C3jQg=
 			</data>
 		</dict>
 		<key>Modules/ORPaymentSpeakerKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -78,14 +78,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wtsr753t0/BrJbfLgHe3X+carDFA1GkacKCO7j8oBAA=
+			ksg/fGFtyG/Sz7ccYs9mYuiPsPBrmv+qN5OjH7C3jQg=
 			</data>
 		</dict>
 		<key>Modules/ORPaymentSpeakerKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Fcjtl/Rrhne4+edQRMeQZT9zMjDvsrvhBLQ6c+P3rHY=
+			eq5nlJOGPA9R2l4uzVOmdww0Ieoi0tfAI90cE/q6rak=
 			</data>
 		</dict>
 	</dict>

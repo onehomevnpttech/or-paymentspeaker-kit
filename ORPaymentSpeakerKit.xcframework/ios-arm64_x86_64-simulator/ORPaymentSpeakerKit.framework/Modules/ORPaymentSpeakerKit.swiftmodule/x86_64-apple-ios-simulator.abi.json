@@ -33,6 +33,219 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "ORLangCode",
+        "printedName": "ORLangCode",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "vi",
+            "printedName": "vi",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ORPaymentSpeakerKit.ORLangCode.Type) -> ORPaymentSpeakerKit.ORLangCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ORLangCode",
+                    "printedName": "ORPaymentSpeakerKit.ORLangCode",
+                    "usr": "s:19ORPaymentSpeakerKit10ORLangCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ORPaymentSpeakerKit.ORLangCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ORLangCode",
+                        "printedName": "ORPaymentSpeakerKit.ORLangCode",
+                        "usr": "s:19ORPaymentSpeakerKit10ORLangCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19ORPaymentSpeakerKit10ORLangCodeO2viyA2CmF",
+            "mangledName": "$s19ORPaymentSpeakerKit10ORLangCodeO2viyA2CmF",
+            "moduleName": "ORPaymentSpeakerKit"
+          },
+          {
+            "kind": "Var",
+            "name": "en",
+            "printedName": "en",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ORPaymentSpeakerKit.ORLangCode.Type) -> ORPaymentSpeakerKit.ORLangCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ORLangCode",
+                    "printedName": "ORPaymentSpeakerKit.ORLangCode",
+                    "usr": "s:19ORPaymentSpeakerKit10ORLangCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ORPaymentSpeakerKit.ORLangCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ORLangCode",
+                        "printedName": "ORPaymentSpeakerKit.ORLangCode",
+                        "usr": "s:19ORPaymentSpeakerKit10ORLangCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19ORPaymentSpeakerKit10ORLangCodeO2enyA2CmF",
+            "mangledName": "$s19ORPaymentSpeakerKit10ORLangCodeO2enyA2CmF",
+            "moduleName": "ORPaymentSpeakerKit"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ORPaymentSpeakerKit.ORLangCode?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ORLangCode",
+                    "printedName": "ORPaymentSpeakerKit.ORLangCode",
+                    "usr": "s:19ORPaymentSpeakerKit10ORLangCodeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19ORPaymentSpeakerKit10ORLangCodeO8rawValueACSgSS_tcfc",
+            "mangledName": "$s19ORPaymentSpeakerKit10ORLangCodeO8rawValueACSgSS_tcfc",
+            "moduleName": "ORPaymentSpeakerKit",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19ORPaymentSpeakerKit10ORLangCodeO8rawValueSSvp",
+            "mangledName": "$s19ORPaymentSpeakerKit10ORLangCodeO8rawValueSSvp",
+            "moduleName": "ORPaymentSpeakerKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19ORPaymentSpeakerKit10ORLangCodeO8rawValueSSvg",
+                "mangledName": "$s19ORPaymentSpeakerKit10ORLangCodeO8rawValueSSvg",
+                "moduleName": "ORPaymentSpeakerKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:19ORPaymentSpeakerKit10ORLangCodeO",
+        "mangledName": "$s19ORPaymentSpeakerKit10ORLangCodeO",
+        "moduleName": "ORPaymentSpeakerKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "ORPaymentSpeaker",
         "printedName": "ORPaymentSpeaker",
         "children": [
@@ -89,6 +302,27 @@
           },
           {
             "kind": "Function",
+            "name": "configure",
+            "printedName": "configure()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19ORPaymentSpeakerKit0aB0C9configureyyF",
+            "mangledName": "$s19ORPaymentSpeakerKit0aB0C9configureyyF",
+            "moduleName": "ORPaymentSpeakerKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "setUserProperties",
             "printedName": "setUserProperties(_:)",
             "children": [
@@ -116,23 +350,17 @@
           {
             "kind": "Function",
             "name": "openAddSpeaker",
-            "printedName": "openAddSpeaker(from:)",
+            "printedName": "openAddSpeaker()",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIViewController",
-                "printedName": "UIKit.UIViewController",
-                "usr": "c:objc(cs)UIViewController"
               }
             ],
             "declKind": "Func",
-            "usr": "s:19ORPaymentSpeakerKit0aB0C07openAddB04fromySo16UIViewControllerC_tF",
-            "mangledName": "$s19ORPaymentSpeakerKit0aB0C07openAddB04fromySo16UIViewControllerC_tF",
+            "usr": "s:19ORPaymentSpeakerKit0aB0C07openAddB0yyF",
+            "mangledName": "$s19ORPaymentSpeakerKit0aB0C07openAddB0yyF",
             "moduleName": "ORPaymentSpeakerKit",
             "declAttributes": [
               "AccessControl"
@@ -142,23 +370,17 @@
           {
             "kind": "Function",
             "name": "openManageSpeakers",
-            "printedName": "openManageSpeakers(from:)",
+            "printedName": "openManageSpeakers()",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIViewController",
-                "printedName": "UIKit.UIViewController",
-                "usr": "c:objc(cs)UIViewController"
               }
             ],
             "declKind": "Func",
-            "usr": "s:19ORPaymentSpeakerKit0aB0C18openManageSpeakers4fromySo16UIViewControllerC_tF",
-            "mangledName": "$s19ORPaymentSpeakerKit0aB0C18openManageSpeakers4fromySo16UIViewControllerC_tF",
+            "usr": "s:19ORPaymentSpeakerKit0aB0C18openManageSpeakersyyF",
+            "mangledName": "$s19ORPaymentSpeakerKit0aB0C18openManageSpeakersyyF",
             "moduleName": "ORPaymentSpeakerKit",
             "declAttributes": [
               "AccessControl"
@@ -168,23 +390,17 @@
           {
             "kind": "Function",
             "name": "openTransactions",
-            "printedName": "openTransactions(from:)",
+            "printedName": "openTransactions()",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIViewController",
-                "printedName": "UIKit.UIViewController",
-                "usr": "c:objc(cs)UIViewController"
               }
             ],
             "declKind": "Func",
-            "usr": "s:19ORPaymentSpeakerKit0aB0C16openTransactions4fromySo16UIViewControllerC_tF",
-            "mangledName": "$s19ORPaymentSpeakerKit0aB0C16openTransactions4fromySo16UIViewControllerC_tF",
+            "usr": "s:19ORPaymentSpeakerKit0aB0C16openTransactionsyyF",
+            "mangledName": "$s19ORPaymentSpeakerKit0aB0C16openTransactionsyyF",
             "moduleName": "ORPaymentSpeakerKit",
             "declAttributes": [
               "AccessControl"
@@ -194,23 +410,17 @@
           {
             "kind": "Function",
             "name": "openPaymentService",
-            "printedName": "openPaymentService(from:)",
+            "printedName": "openPaymentService()",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIViewController",
-                "printedName": "UIKit.UIViewController",
-                "usr": "c:objc(cs)UIViewController"
               }
             ],
             "declKind": "Func",
-            "usr": "s:19ORPaymentSpeakerKit0aB0C18openPaymentService4fromySo16UIViewControllerC_tF",
-            "mangledName": "$s19ORPaymentSpeakerKit0aB0C18openPaymentService4fromySo16UIViewControllerC_tF",
+            "usr": "s:19ORPaymentSpeakerKit0aB0C18openPaymentServiceyyF",
+            "mangledName": "$s19ORPaymentSpeakerKit0aB0C18openPaymentServiceyyF",
             "moduleName": "ORPaymentSpeakerKit",
             "declAttributes": [
               "AccessControl"
@@ -220,23 +430,17 @@
           {
             "kind": "Function",
             "name": "openReportInterrupt",
-            "printedName": "openReportInterrupt(from:)",
+            "printedName": "openReportInterrupt()",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIViewController",
-                "printedName": "UIKit.UIViewController",
-                "usr": "c:objc(cs)UIViewController"
               }
             ],
             "declKind": "Func",
-            "usr": "s:19ORPaymentSpeakerKit0aB0C19openReportInterrupt4fromySo16UIViewControllerC_tF",
-            "mangledName": "$s19ORPaymentSpeakerKit0aB0C19openReportInterrupt4fromySo16UIViewControllerC_tF",
+            "usr": "s:19ORPaymentSpeakerKit0aB0C19openReportInterruptyyF",
+            "mangledName": "$s19ORPaymentSpeakerKit0aB0C19openReportInterruptyyF",
             "moduleName": "ORPaymentSpeakerKit",
             "declAttributes": [
               "AccessControl"
@@ -246,7 +450,7 @@
           {
             "kind": "Function",
             "name": "openCustomFunction",
-            "printedName": "openCustomFunction(from:route:)",
+            "printedName": "openCustomFunction(route:title:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -255,20 +459,28 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "UIViewController",
-                "printedName": "UIKit.UIViewController",
-                "usr": "c:objc(cs)UIViewController"
-              },
-              {
-                "kind": "TypeNominal",
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:19ORPaymentSpeakerKit0aB0C18openCustomFunction4from5routeySo16UIViewControllerC_SStF",
-            "mangledName": "$s19ORPaymentSpeakerKit0aB0C18openCustomFunction4from5routeySo16UIViewControllerC_SStF",
+            "usr": "s:19ORPaymentSpeakerKit0aB0C18openCustomFunction5route5titleySS_SSSgtF",
+            "mangledName": "$s19ORPaymentSpeakerKit0aB0C18openCustomFunction5route5titleySS_SSSgtF",
             "moduleName": "ORPaymentSpeakerKit",
             "declAttributes": [
               "AccessControl"
@@ -319,7 +531,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(username:walletId:)",
+            "printedName": "init(username:walletId:lang:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -338,11 +550,26 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ORPaymentSpeakerKit.ORLangCode?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ORLangCode",
+                    "printedName": "ORPaymentSpeakerKit.ORLangCode",
+                    "usr": "s:19ORPaymentSpeakerKit10ORLangCodeO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:19ORPaymentSpeakerKit16ORUserPropertiesC8username8walletIdACSS_SStcfc",
-            "mangledName": "$s19ORPaymentSpeakerKit16ORUserPropertiesC8username8walletIdACSS_SStcfc",
+            "usr": "s:19ORPaymentSpeakerKit16ORUserPropertiesC8username8walletId4langACSS_SSAA10ORLangCodeOSgtcfc",
+            "mangledName": "$s19ORPaymentSpeakerKit16ORUserPropertiesC8username8walletId4langACSS_SSAA10ORLangCodeOSgtcfc",
             "moduleName": "ORPaymentSpeakerKit",
             "declAttributes": [
               "AccessControl"
@@ -423,7 +650,35 @@
     {
       "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/payment-speaker-flutter\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
       "kind": "StringLiteral",
-      "offset": 2363,
+      "offset": 491,
+      "length": 4,
+      "value": "\"vi\""
+    },
+    {
+      "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/payment-speaker-flutter\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
+      "kind": "StringLiteral",
+      "offset": 510,
+      "length": 4,
+      "value": "\"en\""
+    },
+    {
+      "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/payment-speaker-flutter\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
+      "kind": "StringLiteral",
+      "offset": 566,
+      "length": 9,
+      "value": "\"Success\""
+    },
+    {
+      "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/payment-speaker-flutter\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
+      "kind": "StringLiteral",
+      "offset": 592,
+      "length": 6,
+      "value": "\"Fail\""
+    },
+    {
+      "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/payment-speaker-flutter\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
+      "kind": "StringLiteral",
+      "offset": 3377,
       "length": 3,
       "value": "\"\/\""
     }

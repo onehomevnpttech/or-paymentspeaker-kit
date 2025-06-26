@@ -8,18 +8,31 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+public enum ORLangCode : Swift.String {
+  case vi
+  case en
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
 @_hasMissingDesignatedInitializers public class ORPaymentSpeaker {
   public static let shared: ORPaymentSpeakerKit.ORPaymentSpeaker
+  public func configure()
   public func setUserProperties(_ user: ORPaymentSpeakerKit.ORUserProperties)
-  public func openAddSpeaker(from present: UIKit.UIViewController)
-  public func openManageSpeakers(from present: UIKit.UIViewController)
-  public func openTransactions(from present: UIKit.UIViewController)
-  public func openPaymentService(from present: UIKit.UIViewController)
-  public func openReportInterrupt(from present: UIKit.UIViewController)
-  public func openCustomFunction(from present: UIKit.UIViewController, route: Swift.String)
+  public func openAddSpeaker()
+  public func openManageSpeakers()
+  public func openTransactions()
+  public func openPaymentService()
+  public func openReportInterrupt()
+  public func openCustomFunction(route: Swift.String, title: Swift.String?)
   @objc deinit
 }
 public class ORUserProperties {
-  public init(username: Swift.String, walletId: Swift.String)
+  public init(username: Swift.String, walletId: Swift.String, lang: ORPaymentSpeakerKit.ORLangCode? = ORLangCode.vi)
   @objc deinit
 }
+extension ORPaymentSpeakerKit.ORLangCode : Swift.Equatable {}
+extension ORPaymentSpeakerKit.ORLangCode : Swift.Hashable {}
+extension ORPaymentSpeakerKit.ORLangCode : Swift.RawRepresentable {}
