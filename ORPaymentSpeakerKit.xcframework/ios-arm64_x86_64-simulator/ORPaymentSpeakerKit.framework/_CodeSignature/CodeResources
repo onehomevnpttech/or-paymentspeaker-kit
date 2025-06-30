@@ -14,11 +14,11 @@
 		</data>
 		<key>Modules/ORPaymentSpeakerKit.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		xgDaE0ReoS+ETTF0aQTNgcvCdk4=
+		fPLQku37u3sl4C6WFKtQF5OYmOM=
 		</data>
 		<key>Modules/ORPaymentSpeakerKit.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		7X8pcsIZMH3ePgv9dHA9Rpmaoz0=
+		lQKt0JKyVXVMrni/PxrruXXsgRI=
 		</data>
 		<key>Modules/ORPaymentSpeakerKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/ORPaymentSpeakerKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		885NUqMM9thlBv9BechaF0KWgSM=
+		5qm1bNnxTHwrJSKYv1KGBQfOQHM=
 		</data>
 		<key>Modules/ORPaymentSpeakerKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/ORPaymentSpeakerKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		hGPrseAne3wiqZcPmELhSxXFCTI=
+		a1dVxf1BvFgIEzghpxw52nG0eCQ=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -74,14 +74,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sRAhS8k//YCMjDdm6UBYRzjvDn7NUaDbml7VuVIrWbM=
+			j40i/lC/+jidq3g3yfMFpnSAxv/584FXLFyE0abUF+c=
 			</data>
 		</dict>
 		<key>Modules/ORPaymentSpeakerKit.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hKuFW6tBTHMvRuE/yOB9C7oKbMUT/ddxqk5bDEfoE+Y=
+			q7LpNH2Aq/0UQc0XIZ9CUtNWlF88kBlfH0h0x5XO/EY=
 			</data>
 		</dict>
 		<key>Modules/ORPaymentSpeakerKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -116,7 +116,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+TLWx/l7Q7SbKjXpYlnpnV25Gdgpq7M/C32RH48g4vM=
+			uAZR7DmvY4ZcygQnqo72JMHnnKXSrH6RhxTr1anpeKE=
 			</data>
 		</dict>
 		<key>Modules/ORPaymentSpeakerKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -151,7 +151,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wK0rOnIfgK0nUHXob9lqJoSeSupBKDUfiV3NmPZZyEY=
+			qt30FGoPTu8iW0csclOJm8t3K77fqPkC5vIMmoVBG5c=
 			</data>
 		</dict>
 	</dict>
