@@ -20,7 +20,8 @@ public enum ORLangCode : Swift.String {
 @_hasMissingDesignatedInitializers public class ORPaymentSpeaker {
   public static let shared: ORPaymentSpeakerKit.ORPaymentSpeaker
   public func configure()
-  public func setUserProperties(_ user: ORPaymentSpeakerKit.ORUserProperties)
+  @discardableResult
+  public func setUserProperties(_ user: ORPaymentSpeakerKit.ORUserProperties) -> Self
   public func openAddSpeaker()
   public func openManageSpeakers()
   public func openTransactions()
@@ -30,7 +31,7 @@ public enum ORLangCode : Swift.String {
   @objc deinit
 }
 public class ORUserProperties {
-  public init(username: Swift.String, walletId: Swift.String, lang: ORPaymentSpeakerKit.ORLangCode? = ORLangCode.vi)
+  public init(username: Swift.String, walletId: Swift.String, signature: Swift.String, lang: ORPaymentSpeakerKit.ORLangCode? = ORLangCode.vi)
   @objc deinit
 }
 extension ORPaymentSpeakerKit.ORLangCode : Swift.Equatable {}

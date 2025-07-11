@@ -328,8 +328,8 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
+                "name": "DynamicSelf",
+                "printedName": "Self"
               },
               {
                 "kind": "TypeNominal",
@@ -339,11 +339,12 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:19ORPaymentSpeakerKit0aB0C17setUserPropertiesyyAA06ORUserF0CF",
-            "mangledName": "$s19ORPaymentSpeakerKit0aB0C17setUserPropertiesyyAA06ORUserF0CF",
+            "usr": "s:19ORPaymentSpeakerKit0aB0C17setUserPropertiesyACXDAA06ORUserF0CF",
+            "mangledName": "$s19ORPaymentSpeakerKit0aB0C17setUserPropertiesyACXDAA06ORUserF0CF",
             "moduleName": "ORPaymentSpeakerKit",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "DiscardableResult"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -531,13 +532,19 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(username:walletId:lang:)",
+            "printedName": "init(username:walletId:signature:lang:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "ORUserProperties",
                 "printedName": "ORPaymentSpeakerKit.ORUserProperties",
                 "usr": "s:19ORPaymentSpeakerKit16ORUserPropertiesC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
@@ -568,8 +575,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:19ORPaymentSpeakerKit16ORUserPropertiesC8username8walletId4langACSS_SSAA10ORLangCodeOSgtcfc",
-            "mangledName": "$s19ORPaymentSpeakerKit16ORUserPropertiesC8username8walletId4langACSS_SSAA10ORLangCodeOSgtcfc",
+            "usr": "s:19ORPaymentSpeakerKit16ORUserPropertiesC8username8walletId9signature4langACSS_S2SAA10ORLangCodeOSgtcfc",
+            "mangledName": "$s19ORPaymentSpeakerKit16ORUserPropertiesC8username8walletId9signature4langACSS_S2SAA10ORLangCodeOSgtcfc",
             "moduleName": "ORPaymentSpeakerKit",
             "declAttributes": [
               "AccessControl"
@@ -727,14 +734,14 @@
     {
       "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/payment-speaker-flutter\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
       "kind": "StringLiteral",
-      "offset": 4364,
+      "offset": 4415,
       "length": 3,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/payment-speaker-flutter\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
       "kind": "BooleanLiteral",
-      "offset": 5389,
+      "offset": 5440,
       "length": 5,
       "value": "false"
     }
