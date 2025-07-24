@@ -24,9 +24,12 @@ public enum ORLangCode : Swift.String {
   public func setUserProperties(_ user: ORPaymentSpeakerKit.ORUserProperties) -> Self
   public func openAddSpeaker()
   public func openManageSpeakers()
+  public func openSpeakerDetail(uid: Swift.String)
   public func openTransactions()
+  public func openTransactionsBySpeaker(uid: Swift.String)
   public func openPaymentService()
   public func openReportInterrupt()
+  public func openReportInterruptBySpeaker(uid: Swift.String)
   public func openCustomFunction(route: Swift.String, title: Swift.String?)
   @objc deinit
 }

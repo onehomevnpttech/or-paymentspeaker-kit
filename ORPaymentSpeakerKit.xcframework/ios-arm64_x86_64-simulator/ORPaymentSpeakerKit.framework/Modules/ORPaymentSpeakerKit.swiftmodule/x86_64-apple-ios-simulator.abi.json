@@ -390,6 +390,32 @@
           },
           {
             "kind": "Function",
+            "name": "openSpeakerDetail",
+            "printedName": "openSpeakerDetail(uid:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19ORPaymentSpeakerKit0aB0C04openB6Detail3uidySS_tF",
+            "mangledName": "$s19ORPaymentSpeakerKit0aB0C04openB6Detail3uidySS_tF",
+            "moduleName": "ORPaymentSpeakerKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "openTransactions",
             "printedName": "openTransactions()",
             "children": [
@@ -402,6 +428,32 @@
             "declKind": "Func",
             "usr": "s:19ORPaymentSpeakerKit0aB0C16openTransactionsyyF",
             "mangledName": "$s19ORPaymentSpeakerKit0aB0C16openTransactionsyyF",
+            "moduleName": "ORPaymentSpeakerKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "openTransactionsBySpeaker",
+            "printedName": "openTransactionsBySpeaker(uid:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19ORPaymentSpeakerKit0aB0C018openTransactionsByB03uidySS_tF",
+            "mangledName": "$s19ORPaymentSpeakerKit0aB0C018openTransactionsByB03uidySS_tF",
             "moduleName": "ORPaymentSpeakerKit",
             "declAttributes": [
               "AccessControl"
@@ -442,6 +494,32 @@
             "declKind": "Func",
             "usr": "s:19ORPaymentSpeakerKit0aB0C19openReportInterruptyyF",
             "mangledName": "$s19ORPaymentSpeakerKit0aB0C19openReportInterruptyyF",
+            "moduleName": "ORPaymentSpeakerKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "openReportInterruptBySpeaker",
+            "printedName": "openReportInterruptBySpeaker(uid:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19ORPaymentSpeakerKit0aB0C021openReportInterruptByB03uidySS_tF",
+            "mangledName": "$s19ORPaymentSpeakerKit0aB0C021openReportInterruptByB03uidySS_tF",
             "moduleName": "ORPaymentSpeakerKit",
             "declAttributes": [
               "AccessControl"
@@ -636,112 +714,133 @@
     {
       "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/payment-speaker-flutter\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
       "kind": "StringLiteral",
-      "offset": 333,
+      "offset": 334,
+      "length": 25,
+      "value": "\"\/detail_payment_speaker\""
+    },
+    {
+      "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/payment-speaker-flutter\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
+      "kind": "StringLiteral",
+      "offset": 384,
       "length": 22,
       "value": "\"\/transaction_history\""
     },
     {
       "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/payment-speaker-flutter\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
       "kind": "StringLiteral",
-      "offset": 375,
+      "offset": 440,
+      "length": 25,
+      "value": "\"\/transaction_by_speaker\""
+    },
+    {
+      "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/payment-speaker-flutter\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
+      "kind": "StringLiteral",
+      "offset": 485,
       "length": 18,
       "value": "\"\/payment_service\""
     },
     {
       "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/payment-speaker-flutter\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
       "kind": "StringLiteral",
-      "offset": 421,
+      "offset": 531,
       "length": 19,
       "value": "\"\/report_interrupt\""
     },
     {
       "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/payment-speaker-flutter\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
       "kind": "StringLiteral",
-      "offset": 491,
+      "offset": 587,
+      "length": 30,
+      "value": "\"\/report_interrupt_by_speaker\""
+    },
+    {
+      "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/payment-speaker-flutter\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
+      "kind": "StringLiteral",
+      "offset": 668,
       "length": 4,
       "value": "\"vi\""
     },
     {
       "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/payment-speaker-flutter\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
       "kind": "StringLiteral",
-      "offset": 510,
+      "offset": 687,
       "length": 4,
       "value": "\"en\""
     },
     {
       "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/payment-speaker-flutter\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
       "kind": "StringLiteral",
-      "offset": 574,
+      "offset": 751,
       "length": 9,
       "value": "\"Success\""
     },
     {
       "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/payment-speaker-flutter\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
       "kind": "StringLiteral",
-      "offset": 600,
+      "offset": 777,
       "length": 6,
       "value": "\"Fail\""
     },
     {
       "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/payment-speaker-flutter\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
       "kind": "StringLiteral",
-      "offset": 625,
+      "offset": 802,
       "length": 8,
       "value": "\"Denied\""
     },
     {
       "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/payment-speaker-flutter\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
       "kind": "StringLiteral",
-      "offset": 881,
+      "offset": 1058,
       "length": 14,
       "value": "\"Lỗi mạng\""
     },
     {
       "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/payment-speaker-flutter\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
       "kind": "StringLiteral",
-      "offset": 936,
+      "offset": 1113,
       "length": 62,
       "value": "\"Xin vui lòng kiểm tra kết nối mạng và thử lại!\""
     },
     {
       "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/payment-speaker-flutter\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
       "kind": "StringLiteral",
-      "offset": 1023,
+      "offset": 1200,
       "length": 8,
       "value": "\"Đóng\""
     },
     {
       "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/payment-speaker-flutter\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
       "kind": "StringLiteral",
-      "offset": 1120,
+      "offset": 1297,
       "length": 15,
       "value": "\"Network error\""
     },
     {
       "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/payment-speaker-flutter\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
       "kind": "StringLiteral",
-      "offset": 1176,
+      "offset": 1353,
       "length": 53,
       "value": "\"Please check your network connection and try again!\""
     },
     {
       "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/payment-speaker-flutter\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
       "kind": "StringLiteral",
-      "offset": 1254,
+      "offset": 1431,
       "length": 7,
       "value": "\"Close\""
     },
     {
       "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/payment-speaker-flutter\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
       "kind": "StringLiteral",
-      "offset": 4415,
+      "offset": 4998,
       "length": 3,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/payment-speaker-flutter\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
       "kind": "BooleanLiteral",
-      "offset": 5440,
+      "offset": 6056,
       "length": 5,
       "value": "false"
     }
