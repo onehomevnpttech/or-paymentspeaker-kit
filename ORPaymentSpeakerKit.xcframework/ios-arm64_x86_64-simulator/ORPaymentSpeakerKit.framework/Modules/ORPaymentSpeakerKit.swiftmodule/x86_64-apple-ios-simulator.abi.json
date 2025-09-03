@@ -691,156 +691,156 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/payment-speaker-flutter\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
+      "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/tingpay\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
       "kind": "StringLiteral",
       "offset": 210,
       "length": 3,
       "value": "\"\/\""
     },
     {
-      "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/payment-speaker-flutter\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
+      "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/tingpay\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
       "kind": "StringLiteral",
       "offset": 236,
       "length": 22,
       "value": "\"\/add_payment_speaker\""
     },
     {
-      "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/payment-speaker-flutter\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
+      "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/tingpay\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
       "kind": "StringLiteral",
       "offset": 285,
       "length": 23,
       "value": "\"\/list_payment_speaker\""
     },
     {
-      "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/payment-speaker-flutter\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
+      "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/tingpay\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
       "kind": "StringLiteral",
       "offset": 334,
       "length": 25,
       "value": "\"\/detail_payment_speaker\""
     },
     {
-      "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/payment-speaker-flutter\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
+      "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/tingpay\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
       "kind": "StringLiteral",
       "offset": 384,
       "length": 22,
       "value": "\"\/transaction_history\""
     },
     {
-      "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/payment-speaker-flutter\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
+      "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/tingpay\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
       "kind": "StringLiteral",
       "offset": 440,
       "length": 25,
       "value": "\"\/transaction_by_speaker\""
     },
     {
-      "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/payment-speaker-flutter\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
+      "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/tingpay\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
       "kind": "StringLiteral",
       "offset": 485,
       "length": 18,
       "value": "\"\/payment_service\""
     },
     {
-      "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/payment-speaker-flutter\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
+      "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/tingpay\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
       "kind": "StringLiteral",
       "offset": 531,
       "length": 19,
       "value": "\"\/report_interrupt\""
     },
     {
-      "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/payment-speaker-flutter\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
+      "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/tingpay\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
       "kind": "StringLiteral",
       "offset": 587,
       "length": 30,
       "value": "\"\/report_interrupt_by_speaker\""
     },
     {
-      "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/payment-speaker-flutter\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
+      "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/tingpay\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
       "kind": "StringLiteral",
       "offset": 668,
       "length": 4,
       "value": "\"vi\""
     },
     {
-      "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/payment-speaker-flutter\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
+      "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/tingpay\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
       "kind": "StringLiteral",
       "offset": 687,
       "length": 4,
       "value": "\"en\""
     },
     {
-      "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/payment-speaker-flutter\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
+      "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/tingpay\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
       "kind": "StringLiteral",
       "offset": 751,
       "length": 9,
       "value": "\"Success\""
     },
     {
-      "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/payment-speaker-flutter\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
+      "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/tingpay\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
       "kind": "StringLiteral",
       "offset": 777,
       "length": 6,
       "value": "\"Fail\""
     },
     {
-      "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/payment-speaker-flutter\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
+      "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/tingpay\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
       "kind": "StringLiteral",
       "offset": 802,
       "length": 8,
       "value": "\"Denied\""
     },
     {
-      "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/payment-speaker-flutter\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
+      "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/tingpay\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
       "kind": "StringLiteral",
       "offset": 1058,
       "length": 14,
       "value": "\"Lỗi mạng\""
     },
     {
-      "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/payment-speaker-flutter\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
+      "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/tingpay\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
       "kind": "StringLiteral",
       "offset": 1113,
       "length": 62,
       "value": "\"Xin vui lòng kiểm tra kết nối mạng và thử lại!\""
     },
     {
-      "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/payment-speaker-flutter\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
+      "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/tingpay\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
       "kind": "StringLiteral",
       "offset": 1200,
       "length": 8,
       "value": "\"Đóng\""
     },
     {
-      "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/payment-speaker-flutter\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
+      "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/tingpay\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
       "kind": "StringLiteral",
       "offset": 1297,
       "length": 15,
       "value": "\"Network error\""
     },
     {
-      "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/payment-speaker-flutter\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
+      "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/tingpay\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
       "kind": "StringLiteral",
       "offset": 1353,
       "length": 53,
       "value": "\"Please check your network connection and try again!\""
     },
     {
-      "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/payment-speaker-flutter\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
+      "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/tingpay\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
       "kind": "StringLiteral",
       "offset": 1431,
       "length": 7,
       "value": "\"Close\""
     },
     {
-      "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/payment-speaker-flutter\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
+      "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/tingpay\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
       "kind": "StringLiteral",
-      "offset": 4998,
+      "offset": 5083,
       "length": 3,
       "value": "\"\/\""
     },
     {
-      "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/payment-speaker-flutter\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
+      "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/tingpay\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
       "kind": "BooleanLiteral",
-      "offset": 6056,
+      "offset": 6305,
       "length": 5,
       "value": "false"
     }
