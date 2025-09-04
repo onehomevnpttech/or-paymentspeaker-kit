@@ -41,6 +41,7 @@ public class ORUserProperties {
 public protocol ORPaymentSpeakerDelegate : ObjectiveC.NSObjectProtocol {
   func onAddSpeakerSuccess(uid: Swift.String)
   func onAddSpeakerError(uid: Swift.String)
+  func onRemovedSpeaker(uid: Swift.String)
 }
 extension ORPaymentSpeakerKit.ORLangCode : Swift.Equatable {}
 extension ORPaymentSpeakerKit.ORLangCode : Swift.Hashable {}
