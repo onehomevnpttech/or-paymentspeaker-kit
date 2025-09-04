@@ -251,6 +251,109 @@
         "children": [
           {
             "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any ORPaymentSpeakerKit.ORPaymentSpeakerDelegate)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19ORPaymentSpeakerKit0aB0C8delegateAA0aB8Delegate_pSgvp",
+            "mangledName": "$s19ORPaymentSpeakerKit0aB0C8delegateAA0aB8Delegate_pSgvp",
+            "moduleName": "ORPaymentSpeakerKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any ORPaymentSpeakerKit.ORPaymentSpeakerDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ORPaymentSpeakerDelegate",
+                        "printedName": "any ORPaymentSpeakerKit.ORPaymentSpeakerDelegate",
+                        "usr": "s:19ORPaymentSpeakerKit0aB8DelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19ORPaymentSpeakerKit0aB0C8delegateAA0aB8Delegate_pSgvg",
+                "mangledName": "$s19ORPaymentSpeakerKit0aB0C8delegateAA0aB8Delegate_pSgvg",
+                "moduleName": "ORPaymentSpeakerKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any ORPaymentSpeakerKit.ORPaymentSpeakerDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ORPaymentSpeakerDelegate",
+                        "printedName": "any ORPaymentSpeakerKit.ORPaymentSpeakerDelegate",
+                        "usr": "s:19ORPaymentSpeakerKit0aB8DelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19ORPaymentSpeakerKit0aB0C8delegateAA0aB8Delegate_pSgvs",
+                "mangledName": "$s19ORPaymentSpeakerKit0aB0C8delegateAA0aB8Delegate_pSgvs",
+                "moduleName": "ORPaymentSpeakerKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19ORPaymentSpeakerKit0aB0C8delegateAA0aB8Delegate_pSgvM",
+                "mangledName": "$s19ORPaymentSpeakerKit0aB0C8delegateAA0aB8Delegate_pSgvM",
+                "moduleName": "ORPaymentSpeakerKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "shared",
             "printedName": "shared",
             "children": [
@@ -685,6 +788,92 @@
             "mangledName": "$ss9EscapableP"
           }
         ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ORPaymentSpeakerDelegate",
+        "printedName": "ORPaymentSpeakerDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onAddSpeakerSuccess",
+            "printedName": "onAddSpeakerSuccess(uid:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19ORPaymentSpeakerKit0aB8DelegateP05onAddB7Success3uidySS_tF",
+            "mangledName": "$s19ORPaymentSpeakerKit0aB8DelegateP05onAddB7Success3uidySS_tF",
+            "moduleName": "ORPaymentSpeakerKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : ORPaymentSpeakerKit.ORPaymentSpeakerDelegate>",
+            "sugared_genericSig": "<Self where Self : ORPaymentSpeakerKit.ORPaymentSpeakerDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onAddSpeakerError",
+            "printedName": "onAddSpeakerError(uid:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19ORPaymentSpeakerKit0aB8DelegateP05onAddB5Error3uidySS_tF",
+            "mangledName": "$s19ORPaymentSpeakerKit0aB8DelegateP05onAddB5Error3uidySS_tF",
+            "moduleName": "ORPaymentSpeakerKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : ORPaymentSpeakerKit.ORPaymentSpeakerDelegate>",
+            "sugared_genericSig": "<Self where Self : ORPaymentSpeakerKit.ORPaymentSpeakerDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:19ORPaymentSpeakerKit0aB8DelegateP",
+        "mangledName": "$s19ORPaymentSpeakerKit0aB8DelegateP",
+        "moduleName": "ORPaymentSpeakerKit",
+        "genericSig": "<τ_0_0 : ObjectiveC.NSObjectProtocol>",
+        "sugared_genericSig": "<Self : ObjectiveC.NSObjectProtocol>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
       }
     ],
     "json_format_version": 8
@@ -833,14 +1022,14 @@
     {
       "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/tingpay\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
       "kind": "StringLiteral",
-      "offset": 5083,
+      "offset": 5090,
       "length": 3,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Volumes\/Data\/DucDT\/Projects\/Flutter\/ONEFinance\/tingpay\/ios_wrapper\/ORPaymentSpeakerWeb\/ORPaymentSpeaker\/ORPaymentSpeaker.swift",
       "kind": "BooleanLiteral",
-      "offset": 6305,
+      "offset": 6312,
       "length": 5,
       "value": "false"
     }

@@ -18,6 +18,7 @@ public enum ORLangCode : Swift.String {
   }
 }
 @_hasMissingDesignatedInitializers public class ORPaymentSpeaker {
+  weak public var delegate: (any ORPaymentSpeakerKit.ORPaymentSpeakerDelegate)?
   public static let shared: ORPaymentSpeakerKit.ORPaymentSpeaker
   public func configure()
   @discardableResult
@@ -36,6 +37,10 @@ public enum ORLangCode : Swift.String {
 public class ORUserProperties {
   public init(username: Swift.String, walletId: Swift.String, signature: Swift.String, lang: ORPaymentSpeakerKit.ORLangCode? = ORLangCode.vi)
   @objc deinit
+}
+public protocol ORPaymentSpeakerDelegate : ObjectiveC.NSObjectProtocol {
+  func onAddSpeakerSuccess(uid: Swift.String)
+  func onAddSpeakerError(uid: Swift.String)
 }
 extension ORPaymentSpeakerKit.ORLangCode : Swift.Equatable {}
 extension ORPaymentSpeakerKit.ORLangCode : Swift.Hashable {}
